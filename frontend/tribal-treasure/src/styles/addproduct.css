@@ -1,0 +1,166 @@
+
+.artisan-container {
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 0%;
+  }
+  
+
+  
+  
+  .artisancontent {
+    padding: 20px;
+    margin-left:14.9%;
+    overflow-y: auto; 
+    font-family: 'Roboto', sans-serif;
+    background:linear-gradient(135deg, #ffedd5, #fffbf0);
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+
+.product {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2%;
+}
+
+.product .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+}
+
+.product h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.product p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product p a {
+    color: #3b49df;
+    text-decoration: none;
+}
+
+.product label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.product input[type="text"],
+.product input[type="number"] ,
+.product input[type="date"] 
+{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.product .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product select {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    appearance: none; /* Removes default arrow icon in some browsers */
+}
+
+.product select:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+
+
+.product .checkbox-container input {
+    margin-right: 10px;
+}
+
+.product .checkbox-container a {
+    color: #3b49df;
+    text-decoration: none;
+}
+
+.product button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b49df;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #2c3e9f;
+}
+
+.product textarea {
+    width: 95%; 
+    padding: 10px;
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    color: #333; 
+    background-color: #f9f9f9; 
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    resize: vertical; 
+}
+
+.product input[type="file"]{
+    padding: 10px;  
+    width: 90%;
+    height: auto;
+}
+
+.product input[list] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input[list]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  

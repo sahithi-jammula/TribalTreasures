@@ -1,0 +1,201 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 100vh; 
+    box-sizing: border-box; 
+}
+
+
+
+
+.home {
+    position: relative;
+    flex: 1; 
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    box-sizing: border-box; 
+    overflow: hidden;
+    margin-left:14.9%;
+    margin-top: -1%;
+}
+
+.home-hero {
+    background-image: url('https://img.freepik.com/free-photo/earthenware-pottery-vase-with-terracotta-decoration-outdoors-generated-by-ai_188544-38930.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+    height: 400px;
+    position: relative;
+    width: 100%;
+}
+
+
+.home-hero h1 {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.home-hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.home-hero button {
+    background-color: #FFD700;
+    color: #8B4513;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-hero button:hover {
+    background-color: #FFA500;
+    transform: scale(1.1);
+}
+
+/* Featured Products Section */
+.home-featured-products {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.home-featured-products h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #8B4513;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.home-products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    
+}
+
+.home-product {
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-right:5%
+}
+
+.home-product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.home-product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #8B4513;
+}
+
+.home-product p {
+    margin: 10px 0;
+    font-weight: 500;
+    color: #333;
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        flex-direction: column; /* Stack sidebar and home vertically */
+    }
+
+  
+
+    .home-hero h1 {
+        font-size: 36px;
+    }
+
+    .home-hero p {
+        font-size: 16px;
+    }
+
+    .home-featured-products h2 {
+        font-size: 28px;
+    }
+
+    .home-products {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .home-product {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.home-header {
+    text-align: center;
+    padding: 20px 0;
+    
+  }
+  .home-header h1 {
+    font-size: 2em;
+  }
+.home-artisans {
+    display: flex;
+    justify-content: space-around;
+    background-color:#F5F4B3;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.home-artisan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.home-artisan img {
+    border-radius: 10%;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 250px;
+}
+
+.home-specialty {
+    font-style: italic;
+    color: #555;
+}
+
+/* Footer Section */
+.home-footer {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.home-footer h2 {
+    font-size: 1.5em;
+    margin: 0;
+}

@@ -1,0 +1,61 @@
+/* Sidebar and content layout */
+.admin-container {
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+
+  
+  
+  .content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-left:14.9%;
+    overflow-y: auto; 
+  }
+  
+  .artisandelete-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .artisandelete-table th,
+  .artisandelete-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .artisandelete-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .artisandelete-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .artisandelete-table tr:hover {
+    background-color: #f1f1f1;
+  }
+
+
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .admin-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .artisandelete-table th,
+    .artisandelete-table td {
+      padding: 8px;
+    }
+  }
+  

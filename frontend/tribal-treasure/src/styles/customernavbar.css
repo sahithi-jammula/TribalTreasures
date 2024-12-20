@@ -1,0 +1,64 @@
+.customer-sidebar {
+    width: 300px;
+    background-color: #1f2937;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 5px;
+    
+}
+.customer-sidebar h1{
+    margin-left:10%;
+}
+
+.customer-sidebar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 15px 0;
+    font-size: 24px;
+    display: flex;
+    align-items: flex-start;
+    transition: color 0.3s;
+    margin-left: 15%;
+}
+
+.customer-sidebar a:hover {
+    color: #3b82f6;
+}
+
+.customer-sidebar a i {
+    margin-right: 10px;
+}
+
+.customer-auth-buttons {
+    margin-top: auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.customer-auth-buttons button {
+    width: 80%;
+    margin: 5px 0;
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #1f2937 ;
+    
+}
+
+
+
+
+
+  

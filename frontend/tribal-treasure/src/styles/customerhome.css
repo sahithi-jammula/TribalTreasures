@@ -1,0 +1,293 @@
+.sidebar {
+    width: 300px;
+    background-color: #1f2937;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 20px;
+    
+}
+.sidebar h1{
+    margin-left:20%;
+}
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px; /* Increased font size */
+    display: block; /* Make links block-level elements */
+    padding: 20px 10px; /* Increase padding for larger clickable area */
+    text-align: center; /* Align text to the center */
+    margin: 10px 0; /* Reduce vertical spacing slightly */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions for hover effects */
+    background-color: #1f2937; /* Same as sidebar color for seamless integration */
+    cursor: default; /* Remove pointer cursor */
+}
+
+.sidebar a:hover {
+    color: #3b82f6; /* Hover effect for text color */
+    background-color: #2d3748; /* Subtle background color change */
+    cursor: default; /* Keep the cursor default on hover */
+}
+
+
+.sidebar a i {
+    margin-right: 10px;
+}
+
+.auth-buttons {
+    margin-top: auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.auth-buttons button {
+    width: 80%;
+    margin: 5px 0;
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #1f2937 ;
+    
+}
+
+
+
+
+/* Logout Button Styling */
+.logout {
+    margin-top: auto; /* Original setting */
+    margin-bottom: 50px; /* Add margin from the bottom to move it up */
+}
+
+.logout button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logout button:hover {
+    background-color: #c9302c;
+}
+
+
+/* Content Area Styling */
+.content {
+    margin-left: 250px; /* Space for the fixed navbar */
+    padding: 40px;
+    flex: 1;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.content p {
+    font-size: 18px;
+    color: #6c757d;
+}
+/* Hero Section */
+.hero {
+    background-image: url('https://img.freepik.com/free-photo/earthenware-pottery-vase-with-terracotta-decoration-outdoors-generated-by-ai_188544-38930.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px; /* Increased padding for more height */
+    height: 400px; /* Set an explicit height to enlarge the container */
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero button {
+    background-color: #FFD700;
+    color: #8B4513;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.hero button:hover {
+    background-color: #FFA500;
+    transform: scale(1.1);
+}
+
+
+/* Featured Products Section */
+.featured-products {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.featured-products h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #8B4513;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 250px;
+    margin-bottom: 12%;
+    margin-top: 5%;
+    
+    
+}
+
+.product {
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-right:5%;
+    padding:5%
+}.product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #8B4513;
+}
+
+.product p {
+    margin: 10px 0;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .featured-products h2 {
+        font-size: 28px;
+    }
+
+    .products {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .product {
+        width: 90%;
+    }
+}
+
+
+
+  .header {
+    text-align: center;
+    padding: 20px 0;
+    
+  }
+  .header h1 {
+    font-size: 2em;
+  }
+  .artisans {
+    display: flex;
+    justify-content: space-around; /* Space evenly around items */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    padding: 20px;
+    max-width: 100%; /* Optional: Limit the max width */
+    gap: 20px; /* Space between items */
+    background-color: #a8ad70;
+}
+
+.artisan {
+    display: flex;
+    flex-direction: column; /* Stack the artisan details */
+    align-items: center; /* Center align the details */
+    text-align: center; /* Center text alignment */
+    width: 350px; /* Optional: Control the width of each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    padding: 15px;
+    border-radius: 20px;
+    height: 20%;
+    background-color:white; /* Optional: Add a background */
+}
+
+.artisan img {
+    border-radius: 10%; /* Make the image circular */
+    margin-bottom: 10px; /* Add space below the image */
+    margin-top: 20px;
+    width: 80%;
+    height: 250px;
+}
+
+.specialty {
+    font-style: italic;
+    color: #555; /* Subtle color for specialties */
+}
+
+  .footer {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .footer h2 {
+    font-size: 1.5em;
+    margin: 0 0;
+  }

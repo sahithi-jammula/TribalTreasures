@@ -1,0 +1,100 @@
+.artisan-container {
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 0%;
+  }
+  
+
+  
+  
+  .artisancontent {
+    padding: 20px;
+    margin-left:14.9%;
+    overflow-y: auto; 
+    font-family: 'Roboto', sans-serif;
+    background:linear-gradient(135deg, #ffedd5, #fffbf0);
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  /* Title styling */
+  
+  /* Card container */
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 6%;
+    margin-top: 20px;
+  }
+  
+  /* Card styling */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 130%;
+  }
+  
+  /* Image styling */
+  .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+  }
+  
+  .card-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999999;
+    font-size: 14px;
+  }
+  
+  /* Card body styling */
+  .card-body {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  .card-body h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333333;
+  }
+  
+  .card-body p {
+    margin: 5px 0;
+    color: #666666;
+    font-size: 14px;
+  }
+  
+  .card-body p strong {
+    color: #333333;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .artisancontent {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    .card-body p {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,22 @@
+.admin-container {
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+
+  
+  
+  .content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-left:14.9%;
+    overflow-y: auto; 
+  }
+
+  .error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -5px;
+  }
+  

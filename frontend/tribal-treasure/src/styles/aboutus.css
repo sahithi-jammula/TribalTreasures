@@ -1,0 +1,176 @@
+.aboutus-container {
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 0;
+  }
+  
+  .aboutuscontent {
+    padding: 20px;
+    margin-left:14.9%;
+    overflow-y: auto; 
+    font-family: 'Roboto', sans-serif;
+    background:linear-gradient(135deg, #ffedd5, #fffbf0);
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .team-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .team-card {
+    position: relative;
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  .team-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .team-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+  
+  .overlay p {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .team-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+  
+    .team-card {
+        width: 100%;
+        height: auto;
+    }
+  }
+  
+  .aboutdesc {
+    max-width: 100%;
+    background: linear-gradient(135deg, #ffedd5, #fffbf0);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(149, 88, 88, 0.7);
+    font-family: 'Roboto', sans-serif;
+    color: #0e0e0e;
+    
+    line-height: 1.8;
+  }
+  
+  .aboutdesc h2 {
+    font-size: 32px;
+    color: #0e0f10;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 8px;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .aboutdesc p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.8;
+  }
+  
+  .aboutdesc ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .aboutdesc ul li {
+    font-size: 20px;
+    color: #151718;
+    padding: 12px 0;
+    position: relative;
+    padding-left: 35px;
+    line-height: 1.6;
+  }
+  
+  .aboutdesc ul li::before {
+    content: '◆';
+    font-size: 18px;
+    color: #0b0d0d;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .aboutdesc p:last-of-type {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Responsive Styles for About Section */
+  @media (max-width: 768px) {
+    .aboutdesc {
+        padding: 20px;
+    }
+  
+    .aboutdesc h2 {
+        font-size: 26px;
+    }
+  
+    .aboutdesc p,
+    .aboutdesc ul li {
+        font-size: 16px;
+    }
+  }
+  
+
+  

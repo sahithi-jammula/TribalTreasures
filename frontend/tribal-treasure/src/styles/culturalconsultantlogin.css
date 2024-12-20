@@ -1,0 +1,194 @@
+.culturalconsultantlogin {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin-top: 10%;
+}
+
+.culturalconsultantlogin .container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.culturalconsultantlogin .container img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.culturalconsultantlogin .container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.culturalconsultantlogin .container h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.culturalconsultantlogin .container a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.culturalconsultantlogin .container a:hover {
+    text-decoration: underline;
+}
+
+.culturalconsultantlogin .container input[type="email"],
+.culturalconsultantlogin .container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.culturalconsultantlogin .container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.culturalconsultantlogin .container .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.culturalconsultantlogin .container input[type="text"],
+.culturalconsultantlogin .container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.culturalconsultantlogin .container button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.culturalconsultantlogin .container button:hover {
+    background-color: #357ab8;
+}
+
+
+
+.culturalconsultant {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10%;
+}
+
+.culturalconsultant .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+}
+
+.culturalconsultant h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.culturalconsultant p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.culturalconsultant p a {
+    color: #3b49df;
+    text-decoration: none;
+}
+
+.culturalconsultant label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.culturalconsultant input[type="text"],
+.culturalconsultant input[type="email"],
+.culturalconsultant input[type="password"],
+.culturalconsultant input[type="number"] ,
+.culturalconsultant input[type="date"] 
+{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.culturalconsultant .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.culturalconsultant select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    appearance: none; /* Removes default arrow icon in some browsers */
+}
+
+.culturalconsultant select:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.culturalconsultant select option {
+    color: #333;
+    background-color: #fff;
+}
+
+
+.culturalconsultant .checkbox-container input {
+    margin-right: 10px;
+}
+
+.culturalconsultant .checkbox-container a {
+    color: #3b49df;
+    text-decoration: none;
+}
+
+.culturalconsultant button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b49df;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.culturalconsultant button:hover {
+    background-color: #2c3e9f;
+}

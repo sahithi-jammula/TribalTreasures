@@ -1,0 +1,181 @@
+.admin {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:10%;
+    margin-top: 10%;
+
+}
+
+.admin .container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin .container img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.admin .container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.admin .container h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.admin .container a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.admin .container a:hover {
+    text-decoration: underline;
+}
+
+.admin .container input[type="email"],
+.admin .container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.admin .container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.admin .container .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.admin .container button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.admin .container button:hover {
+    background-color: #357ab8;
+}
+
+.adminlogin {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2%;
+}
+
+.adminlogin .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+}
+
+.adminlogin h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.adminlogin p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adminlogin p a {
+    color: #3b49df;
+    text-decoration: none;
+}
+
+.adminlogin label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.admin input[type="text"], 
+.admin input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.adminlogin .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.adminlogin select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    appearance: none;
+}
+
+.adminlogin select:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.adminlogin select option {
+    color: #333;
+    background-color: #fff;
+}
+
+.adminlogin .checkbox-container input {
+    margin-right: 10px;
+}
+
+.adminlogin .checkbox-container a {
+    color: #3b49df;
+    text-decoration: none;
+}
+
+.adminlogin button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b49df;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.adminlogin button:hover {
+    background-color: #2c3e9f;
+}
